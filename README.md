@@ -8,4 +8,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>4. Largest palindrome made from the product of two n-digit numbers
   <li>5. Smallest positive number that is evenly divisible by all of the numbers from 1 to n
   <li>6. Difference between the sum of the squares of the first n natural numbers and the square of the sum.
+  <li>7. Find the nth prime number
 </td>
