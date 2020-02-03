@@ -11,4 +11,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>7. Find the nth prime number
   <li>8. Largest product in a series
   <li>9. Special Pythagorean triplet
+  <li>10. Summation of prime numbers below a given number "n"
 </td>
