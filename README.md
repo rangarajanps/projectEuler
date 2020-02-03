@@ -10,4 +10,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>6. Difference between the sum of the squares of the first n natural numbers and the square of the sum.
   <li>7. Find the nth prime number
   <li>8. Largest product in a series
+  <li>9. Special Pythagorean triplet
 </td>
