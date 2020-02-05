@@ -14,4 +14,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>10. Summation of prime numbers below a given number "n"
   <li>11. Largest product in a grid
   <li>12. Highly divisible triangular number
+  <li>13. Find the first ten digits of the sum of the following one-hundred 50-digit numbers.
 </td>
