@@ -1,8 +1,8 @@
 function latticePaths(gridSize) {
   
-  var k = gridSize*2;
-  var n = gridSize;
-  var result =1 ;
+  var n = gridSize*2;
+  var k = gridSize;
+  var result = 1 ;
 		
 		if ( n-k == 0 ) {
 			k = n-k;
