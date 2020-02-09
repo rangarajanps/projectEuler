@@ -17,11 +17,11 @@ var tens = ["", "",	"Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "E
 
 	if (n < 1000 ) {
 
-    if ( n % 100 == 0 ) {
-      return units[parseInt(n / 100)] + " Hundred";
-    } else {
-		  return units[parseInt(n / 100)] + " Hundred" + " and " + convert(n % 100);
-    }
+    		if ( n % 100 == 0 ) {
+      			return units[parseInt(n / 100)] + " Hundred";
+    		} else {
+		  	return units[parseInt(n / 100)] + " Hundred" + " and " + convert(n % 100);
+    		}
 	}
 
 	if (n < 100000) {
