@@ -20,4 +20,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>16. Power digit sum
   <li>17. Number letter counts
   <li>18. Maximum path sum I
+  <li>19. Counting Sundays
 </td>
