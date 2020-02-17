@@ -26,4 +26,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>22. Names scores
   <li>23. Non-abundant sums
   <li>24. Lexicographic permutations
+  <li>25. 1000-digit Fibonacci number
 </td>
