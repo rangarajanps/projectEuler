@@ -29,4 +29,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>25. 1000-digit Fibonacci number
   <li>26. Reciprocal cycles
   <li>27. Quadratic primes
+  <li>28. Number spiral diagonals
 </td>
