@@ -31,4 +31,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>27. Quadratic primes
   <li>28. Number spiral diagonals
   <li>29. Distinct powers
+  <li>30. Digit n powers
 </td>
