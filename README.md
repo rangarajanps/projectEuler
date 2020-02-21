@@ -30,4 +30,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>26. Reciprocal cycles
   <li>27. Quadratic primes
   <li>28. Number spiral diagonals
+  <li>29. Distinct powers
 </td>
