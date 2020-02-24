@@ -33,4 +33,6 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>29. Distinct powers
   <li>30. Digit n powers
   <li>31. Coin Sums
+  <li>32. Pandigital products
+  <li>33. Digit cancelling fractions
 </td>
