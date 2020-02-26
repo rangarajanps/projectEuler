@@ -36,4 +36,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>32. Pandigital products
   <li>33. Digit cancelling fractions
   <li>34. Digit factorials
+  <li>35. Circular primes
 </td>
