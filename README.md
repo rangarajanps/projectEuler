@@ -43,4 +43,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>39. Integer right triangles
   <li>40. Champernowne's constant
   <li>41. Pandigital prime
+  <li>42. Coded triangle numbers
 </td>
