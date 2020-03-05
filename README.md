@@ -44,4 +44,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>40. Champernowne's constant
   <li>41. Pandigital prime
   <li>42. Coded triangle numbers
+  <li>43. Pentagon numbers
 </td>
