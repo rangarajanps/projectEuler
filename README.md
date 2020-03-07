@@ -47,4 +47,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>43. Not yet solved
   <li>44. Pentagon numbers
   <li>45. Triangular, pentagonal, and hexagonal
+  <li>46. Goldbach's other conjecture
 </td>
