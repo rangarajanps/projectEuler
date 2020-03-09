@@ -48,4 +48,6 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>44. Pentagon numbers
   <li>45. Triangular, pentagonal, and hexagonal
   <li>46. Goldbach's other conjecture
+  <li>47. Work in progress - last test case is not optimized and does not pass within the timed test
+  <li>48. Self powers
 </td>
