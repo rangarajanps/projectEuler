@@ -51,4 +51,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>**47. Work in progress - last test case is not optimized and does not pass within the timed test **
   <li>48. Self powers
   <li>49. Prime permutations
+  <li>50. Consecutive prime sum
 </td>
