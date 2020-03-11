@@ -52,4 +52,6 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>48. Self powers
   <li>49. Prime permutations
   <li>50. Consecutive prime sum
+  <li>**51. Prime digit replacements - Not yet solved **
+  <li>52. Permuted multiples
 </td>
