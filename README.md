@@ -54,4 +54,7 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>50. Consecutive prime sum
   <li>**51. Prime digit replacements - Not yet solved **
   <li>52. Permuted multiples
+  <li>**53. Combinatoric selections - Not yet solved **
+  <li>**54. Poker hands - Not yet solved **
+  <li>55. Lychrel numbers
 </td>
