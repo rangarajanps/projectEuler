@@ -57,4 +57,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>**53. Combinatoric selections - Not yet solved **
   <li>**54. Poker hands - Not yet solved **
   <li>55. Lychrel numbers
+  <li>56. Powerful digit sum
 </td>
