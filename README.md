@@ -58,4 +58,6 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>**54. Poker hands - Not yet solved **
   <li>55. Lychrel numbers
   <li>56. Powerful digit sum
+  <li>**57. Square root convergents - Not yet solved **
+  <li>58. Spiral primes
 </td>
