@@ -60,4 +60,9 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>56. Powerful digit sum
   <li>**57. Square root convergents - Not yet solved **
   <li>58. Spiral primes
+  <li>**59. XOR decryption - Not yet solved **
+  <li>**60. Prime pair sets - Not yet solved **
+  <li>**61. Cyclical figurate numbers - Not yet solved **
+  <li>**62. Cubic permutations - Not yet solved **
+  <li>63. Powerful digit counts
 </td>
