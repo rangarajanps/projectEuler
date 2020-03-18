@@ -67,4 +67,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>63. Powerful digit counts
   <li>69. Totient maximum
   <li>75. Singular integer right triangles
+  <li>76. Counting summations
 </td>
