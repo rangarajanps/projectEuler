@@ -1,19 +1,19 @@
 function countingSummations(target) {
   
-	var coinSizes = [ 2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97 ];
-	var	ways = [];
+  var coinSizes = [ 2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97 ];
+  var	ways = [];
   for (var k = 0; k < target+1; k++) {
-		ways[k] = 0;
+    ways[k] = 0;
   }
-	ways[0] = 1;
+  ways[0] = 1;
 		 
-	for (var i = 0; i < coinSizes.length; i++) {
-		for (var j = coinSizes[i]; j <= target; j++) {
-		  ways[j] += ways[j - coinSizes[i]];
-		}
+  for (var i = 0; i < coinSizes.length; i++) {
+    for (var j = coinSizes[i]; j <= target; j++) {
+      ways[j] += ways[j - coinSizes[i]];
+    }
   }
 	
-	return ways[ways.length-1];
+  return ways[ways.length-1];
 }
 
 function primeSummations() {
