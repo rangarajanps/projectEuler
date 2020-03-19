@@ -68,4 +68,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>69. Totient maximum
   <li>75. Singular integer right triangles
   <li>76. Counting summations
+  <li>77. Prime summations
 </td>
