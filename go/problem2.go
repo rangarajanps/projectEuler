@@ -14,11 +14,12 @@ func SumOfEvenFibonacciNumber(limit int) int {
 	var fibSeries = make([]int, limit)
 	fibSeries[0] = 1
 	fibSeries[1] = 2
-	counter := 2
 
-	for i := counter; i < limit; i++ {
+	for counter := 2; counter < limit; counter++ {
+		if fibSeries[counter] > limit {
+			break
+		}
 		fibSeries[counter] = fibSeries[counter-1] + fibSeries[counter-2]
-		counter++
 	}
 	//fmt.Println("Value of Fibonacci Sereis is ", fibSeries)
 
