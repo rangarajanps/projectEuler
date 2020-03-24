@@ -17,6 +17,12 @@ def sieve(n):
 
     return primeNumbers
 
+def isPrime(n):
+    if n==1: return False
+    for x in range(2, int(n ** (1 / 2))+1):
+        if n % x == 0: return  False
+    return True;
+
 def largestPrimeFactor(n):
     primeList = sieve(int(n ** (1 / 2))+1)
     if isPrime(n): return n
