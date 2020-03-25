@@ -21,7 +21,7 @@ func TestLargestPrimeFactor(t *testing.T) {
 	for _, table := range tables {
 		total := LargestPrimeFactor(table.input)
 		if total != table.expected {
-			t.Errorf("TestSumOfEvenFibonacciNumber of (%d) was incorrect, got: %d, want: %d.", table.input, total, table.expected)
+			t.Errorf("TestLargestPrimeFactor of (%d) was incorrect, got: %d, want: %d.", table.input, total, table.expected)
 		}
 	}
 }
