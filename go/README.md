@@ -6,4 +6,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>2. Even Fibonacci Numbers
   <li>3. Largest prime factor
   <li>4. Largest palindrome product
+  <li>5. Smallest multiple
 </td>
