@@ -8,4 +8,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>4. Largest palindrome product
   <li>5. Smallest multiple
   <li>6. Sum square difference
+  <li>7. 10001st prime
 </td>
