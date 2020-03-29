@@ -9,4 +9,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>5. Smallest multiple
   <li>6. Sum square difference
   <li>7. 10001st prime
+  <li>8. Largest product in a series
 </td>
