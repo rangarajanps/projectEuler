@@ -11,4 +11,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>7. 10001st prime
   <li>8. Largest product in a series
   <li>9. Special Pythagorean triplet
+  <li>10. Summation of primes
 </td>
