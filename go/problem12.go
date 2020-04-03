@@ -14,12 +14,15 @@ func main() {
 }
 
 func divisorCount(num int) int {
+	
+	incr := 2
 	count := 2
-	incr := 1
-	if num%2 != 0 {
-		incr++
+	if num%2 == 0 {
+		incr = 1
+		count = 4
 	}
-	for i := 2; i <= int(math.Trunc(math.Sqrt(float64(num)))); i += incr {
+
+	for i := 3; i <= int(math.Trunc(math.Sqrt(float64(num)))); i += incr {
 		if num%i == 0 {
 			count += 2
 		}
