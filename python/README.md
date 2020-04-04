@@ -15,4 +15,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>11. Largest product in a grid
   <li>12. Highly divisible triangular number
   <li>13. Large sum
+  <li>14. Longest Collatz sequencePassed
 </td>
