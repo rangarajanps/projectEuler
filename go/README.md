@@ -17,4 +17,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>13. Large sum
   <li>14. Longest Collatz sequence
   <li>15. Lattice paths
+  <li>16. Power digit sum
 </td>
