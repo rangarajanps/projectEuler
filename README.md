@@ -44,40 +44,40 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>40. Champernowne's constant</li>
   <li>41. Pandigital prime</li>
   <li>42. Coded triangle numbers</li>
-  <br/>
-  <li>44. Pentagon numbers
-  <li>45. Triangular, pentagonal, and hexagonal
-  <li>46. Goldbach's other conjecture
-  <li>48. Self powers
-  <li>49. Prime permutations
-  <li>50. Consecutive prime sum
-<br/>
-  <li>52. Permuted multiples
-  <li>53. Combinatoric selections
-  <li>55. Lychrel numbers
-  <li>56. Powerful digit sum
+ <br/>
+  <li>44. Pentagon numbers</li>
+  <li>45. Triangular, pentagonal, and hexagonal</li>
+  <li>46. Goldbach's other conjecture</li>
+  <li>48. Self powers</li>
+  <li>49. Prime permutations</li>
+  <li>50. Consecutive prime sum</li>
+ <br/>
+  <li>52. Permuted multiples</li>
+  <li>53. Combinatoric selections</li>
+  <li>55. Lychrel numbers</li>
+  <li>56. Powerful digit sum</li>
  <br/> 
-  <li>58. Spiral primes
+  <li>58. Spiral primes</li>
  <br/>
-  <li>63. Powerful digit counts
+  <li>63. Powerful digit counts</li>
  <br/> 
-  <li>68. Magic 5-gon ring
-  <li>69. Totient maximum
+  <li>68. Magic 5-gon ring</li>
+  <li>69. Totient maximum</li>
  <br/>
-  <li>75. Singular integer right triangles
-  <li>76. Counting summations
-  <li>77. Prime summations
+  <li>75. Singular integer right triangles</li>
+  <li>76. Counting summations</li>
+  <li>77. Prime summations</li>
  <br/>
-  <li>**43. Sub-string divisibility - Not yet solved **
-  <li>**47. Distinct primes factors - Work in progress - last test case is not optimized and does not pass within the timed test **
-  <li>**51. Prime digit replacements - Not yet solved **
-  <li>**54. Poker hands - Not yet solved **
-  <li>**57. Square root convergents - Not yet solved **
-  <li>**59. XOR decryption - Not yet solved **
-  <li>**60. Prime pair sets - Not yet solved **
-  <li>**61. Cyclical figurate numbers - Not yet solved **
-  <li>**62. Cubic permutations - Not yet solved **
+  <li>**43. Sub-string divisibility - Not yet solved **</li>
+  <li>**47. Distinct primes factors - Work in progress - last test case is not optimized and does not pass within the timed test **</li>
+  <li>**51. Prime digit replacements - Not yet solved **</li>
+  <li>**54. Poker hands - Not yet solved **</li>
+  <li>**57. Square root convergents - Not yet solved **</li>
+  <li>**59. XOR decryption - Not yet solved **</li>
+  <li>**60. Prime pair sets - Not yet solved **</li>
+  <li>**61. Cyclical figurate numbers - Not yet solved **</li>
+  <li>**62. Cubic permutations - Not yet solved **</li>
  <br/>
   Restarted after a break :-
-  <li>67. Maximum path sum II
+  <li>67. Maximum path sum II</li>
 </td>
