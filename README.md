@@ -48,12 +48,14 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>44. Pentagon numbers</li>
   <li>45. Triangular, pentagonal, and hexagonal</li>
   <li>46. Goldbach's other conjecture</li>
+ <br/> 
   <li>48. Self powers</li>
   <li>49. Prime permutations</li>
   <li>50. Consecutive prime sum</li>
  <br/>
   <li>52. Permuted multiples</li>
   <li>53. Combinatoric selections</li>
+ <br/> 
   <li>55. Lychrel numbers</li>
   <li>56. Powerful digit sum</li>
  <br/> 
