@@ -21,6 +21,7 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>17. Number letter counts</li>
   <li>18. Maximum path sum I</li>
   <li>19. Counting Sundays</li>
+  <li>20. Factorial digit sum</li>
     
    <br/>
    <li>67. Maximum path sum II</li>
