@@ -24,6 +24,7 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>20. Factorial digit sum</li>
   <li>21. Amicable numbers</li>
   <li>22. Names scores</li>
+  <li>23. Non-Abundant sums</li>
     
    <br/>
    <li>67. Maximum path sum II</li>
