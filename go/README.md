@@ -25,6 +25,7 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>21. Amicable numbers</li>
   <li>22. Names scores</li>
   <li>23. Non-Abundant sums</li>
+  <li>24. Lexicographic permutations</li>
     
    <br/>
    <li>67. Maximum path sum II</li>
