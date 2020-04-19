@@ -30,6 +30,7 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>26. Reciprocal cycles</li>
   <li>27. Quadratic primes</li>
   <li>28. Number spiral diagonals</li>
+  <li>29. Distinct powers</li>
   
   <br/>
   <li>67. Maximum path sum II</li>
