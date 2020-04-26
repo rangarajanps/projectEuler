@@ -35,6 +35,7 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>31. Coin sums</li>
   <li>32. Pandigital products</li>
   <li>35. Circular Primes</li>
+  <li>36. Double-base palindromes</li>
   
   <br/>
   <li>67. Maximum path sum II</li>
