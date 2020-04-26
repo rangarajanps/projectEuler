@@ -37,6 +37,7 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>33. Digit cancelling fractions</li>
   <li>34. Digit factorials</li>
   <li>35. Circular primes</li>
+  <li>36. Double-base palindromes</li>
 
    <br/>
    <li>67. Maximum path sum II</li>
