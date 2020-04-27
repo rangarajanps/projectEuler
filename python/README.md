@@ -34,6 +34,8 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>30. Digit n powers</li>
   <li>31. Coin sums</li>
   <li>32. Pandigital products</li>
+  <li>33. Digit cancelling fractions</li>
+  <li>34. Digit factorials</li>
   <li>35. Circular Primes</li>
   <li>36. Double-base palindromes</li>
   <li>37. Truncatable primes</li>
