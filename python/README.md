@@ -40,6 +40,7 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>36. Double-base palindromes</li>
   <li>37. Truncatable primes</li>
   <li>38. Pandigital multiples</li>
+  <li>39. Integer right triangles</li>
   
   <br/>
   <li>67. Maximum path sum II</li>
