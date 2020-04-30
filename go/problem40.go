@@ -14,7 +14,7 @@ func ChampernowneConstant(n int) int {
 	magnitude := 1
 	product := 1
 
-	for i := 0; magnitude <= n; i++ {
+	for magnitude <= n {
 		temp := nthDigitOfFractional(magnitude)
 		product *= temp
 		magnitude *= 10
