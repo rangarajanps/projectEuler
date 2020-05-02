@@ -13,8 +13,23 @@ func main() {
 
 func LargestNLengthPandigitalPrime(n int) int {
 
-	startIndex := int(math.Pow10(n-1)) + 1
-	endIndex := int(math.Pow10(n)) - 1
+	var startStr strings.Builder
+	for i := 1; i <= n; i++ {
+		temp := strconv.Itoa(i)
+		startStr.WriteString(temp)
+	}
+	startIndex, err := strconv.Atoi(startStr.String())
+	if err != nil {
+		fmt.Println("Error in start string to int conversion ", err)
+		return -1
+	}
+	
+	endIndex := 0
+	orig_number := startIndex
+	for orig_number > 0 {
+		endIndex = endIndex*10 + orig_number%10
+		orig_number /= 10
+	}
 
 	maxNLengthPandigitNum := 1
 	for i := startIndex; i < endIndex; i++ {
