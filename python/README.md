@@ -44,6 +44,9 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>40. Champernowne's constant</li>
   <li>41. Pandigital primes</li>
   <li>42. Coded triangle numbers</li>
+  <li>43. Sub-string divisibility</li>
+  <li>44. Pentagon numbers</li>
+  <li>45. Triangular, pentagonal, and hexagonal</li>
   
   <br/>
   <li>67. Maximum path sum II</li>
