@@ -47,6 +47,7 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>43. Sub-string divisibility</li>
   <li>44. Pentagon numbers</li>
   <li>45. Triangular, pentagonal, and hexagonal</li>
+  <li>46. Goldbach's other conjecture</li>
 
    <br/>
    <li>67. Maximum path sum II</li>
