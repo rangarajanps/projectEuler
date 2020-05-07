@@ -1,6 +1,8 @@
 # Project Euler Challenge Solutions in Javascript
 To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.org site
 
+Solved 61 out of 77
+
 <td>
   <li>1. Sum of multiples of 3 and 5 for a given number "n"</li>
   <li>2. Sum of Even Fibonacci series number for a given number "n"</li>
@@ -48,7 +50,7 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>44. Pentagon numbers</li>
   <li>45. Triangular, pentagonal, and hexagonal</li>
   <li>46. Goldbach's other conjecture</li>
- <br/> 
+  <li>47. Distinct primes factors</li>
   <li>48. Self powers</li>
   <li>49. Prime permutations</li>
   <li>50. Consecutive prime sum</li>
@@ -71,7 +73,6 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>77. Prime summations</li>
  <br/>
   <li>**43. Sub-string divisibility - Not yet solved **</li>
-  <li>**47. Distinct primes factors - Work in progress - last test case is not optimized and does not pass within the timed test **</li>
   <li>**51. Prime digit replacements - Not yet solved **</li>
   <li>**54. Poker hands - Not yet solved **</li>
   <li>**57. Square root convergents - Not yet solved **</li>
@@ -80,6 +81,5 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>**61. Cyclical figurate numbers - Not yet solved **</li>
   <li>**62. Cubic permutations - Not yet solved **</li>
  <br/>
-  Restarted after a break :-
   <li>67. Maximum path sum II</li>
 </td>
