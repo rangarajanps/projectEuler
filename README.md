@@ -64,7 +64,8 @@ Solved 61 out of 77
   <li>58. Spiral primes</li>
  <br/>
   <li>63. Powerful digit counts</li>
- <br/> 
+ <br/>
+  <li>67. Maximum path sum II</li>
   <li>68. Magic 5-gon ring</li>
   <li>69. Totient maximum</li>
  <br/>
@@ -80,6 +81,5 @@ Solved 61 out of 77
   <li>**60. Prime pair sets - Not yet solved **</li>
   <li>**61. Cyclical figurate numbers - Not yet solved **</li>
   <li>**62. Cubic permutations - Not yet solved **</li>
- <br/>
-  <li>67. Maximum path sum II</li>
+  
 </td>
