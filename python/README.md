@@ -49,6 +49,7 @@ To post the solutions of Project Euler challenges I am trying in FreeCodeCamp.or
   <li>45. Triangular, pentagonal, and hexagonal</li>
   <li>46. Goldbach's other conjecture</li>
   <li>47. Distinct primes factors</li>
+  <li>48. Self powers</li>
   
   <br/>
   <li>67. Maximum path sum II</li>
