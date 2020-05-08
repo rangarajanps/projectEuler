@@ -46,7 +46,7 @@ Solved 61 out of 77
   <li>40. Champernowne's constant</li>
   <li>41. Pandigital prime</li>
   <li>42. Coded triangle numbers</li>
- <br/>
+  <li>**43. Sub-string divisibility - solved but not passed in freecodecamp site since order is not correct in the output**</li>
   <li>44. Pentagon numbers</li>
   <li>45. Triangular, pentagonal, and hexagonal</li>
   <li>46. Goldbach's other conjecture</li>
@@ -73,7 +73,7 @@ Solved 61 out of 77
   <li>76. Counting summations</li>
   <li>77. Prime summations</li>
  <br/>
-  <li>**43. Sub-string divisibility - Not yet solved **</li>
+  
   <li>**51. Prime digit replacements - Not yet solved **</li>
   <li>**54. Poker hands - Not yet solved **</li>
   <li>**57. Square root convergents - Not yet solved **</li>
