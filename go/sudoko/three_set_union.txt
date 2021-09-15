@@ -1,0 +1,31 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var row = map[int]bool{1: false, 2: false, 3: true, 4: false, 5: false}
+	var col = map[int]bool{1: true, 2: false, 3: false, 4: false, 5: false}
+	var cube = map[int]bool{1: false, 2: false, 3: true, 4: false, 5: true}
+	fmt.Println(union(row, col, cube))
+}
+
+func union(s1, s2, s3 map[int]bool) map[int]bool {
+
+	
+	for k, _ := range s2 {
+		if s2[k] {
+			s1[k] = true
+		}
+	}
+	for k, _ := range s3 {
+		if s3[k] {
+			s1[k] = true
+		}
+	}
+	//fmt.Println(s_union)
+	return s1
+}
+
+//map[1:true 2:false 3:true 4:false 5:true]

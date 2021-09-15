@@ -1,0 +1,241 @@
+package main
+
+import (
+	"fmt"
+	"math"
+	"strings"
+)
+
+type sudoku struct {
+	gridSize  int
+	elems     [][]int
+	rows      [][]int
+	cols      [][]int
+	filledRow []map[int]bool
+	filledCol []map[int]bool
+}
+
+func NewSudoku(inp string) *sudoku {
+	s := new(sudoku)
+	s.filledRow = make([]map[int]bool, 9)
+	s.filledCol = make([]map[int]bool, 9)
+	return s
+}
+
+func New(inp string) *sudoku {
+
+	m := NewSudoku(inp)
+
+	gridLength := int(math.Sqrt(float64(len(inp))))
+	m.gridSize = gridLength
+
+	// initialize 2 grids - one for row wise access and other for column wise
+	g := make([][]int, gridLength)
+	for i := range g {
+		g[i] = make([]int, gridLength)
+	}
+	t := make([][]int, gridLength)
+	for i := range t {
+		t[i] = make([]int, gridLength)
+	}
+
+	m.initializeNumbersToFill()
+
+	rowSl := make([]string, gridLength)
+	arr := []rune(inp)
+
+	rowToUpdate := m.filledRow
+	colToUpdate := m.filledCol
+
+	for row := 0; row < gridLength; row++ {
+		startIndex := row * gridLength
+		rowSl[row] = string(arr[startIndex : startIndex+9])
+		colSl := []rune(rowSl[row])
+		for col := 0; col < gridLength; col++ {
+			value := int(colSl[col]) - 48
+			g[row][col] = value
+			t[col][row] = value
+			if value != 0 {
+				// fmt.Println("Updating the map for ", value, m.filledRow[0])
+				rowToUpdate[row][value] = true
+				colToUpdate[col][value] = true
+			}
+
+		}
+	}
+
+	rows := make([][]int, gridLength)
+	for row := 0; row < gridLength; row++ {
+		rows[row] = g[row]
+	}
+
+	cols := make([][]int, gridLength)
+	for row := 0; row < gridLength; row++ {
+		cols[row] = t[row]
+	}
+
+	m.filledRow = rowToUpdate
+	m.filledCol = colToUpdate
+	m.rows = rows
+	m.cols = cols
+	m.elems = g
+
+	return m
+}
+
+func (p sudoku) initializeNumbersToFill() {
+
+	// p.filledRow := make([]map[int]bool, p.gridSize)
+	// non-name p.filledRow on left side of :=
+	// panic: runtime error: index out of range [0] with length 0
+	// if i use = instead of :=
+
+	// p.filledCol := make([]map[int]bool, p.gridSize)
+	rowsToFill := make([]map[int]bool, p.gridSize)
+	colsToFill := make([]map[int]bool, p.gridSize)
+	for i := 0; i < p.gridSize; i++ {
+		nmr := make(map[int]bool)
+		nmc := make(map[int]bool)
+		for n := 1; n < 10; n++ {
+			nmr[n] = false
+			nmc[n] = false
+		}
+		rowsToFill[i] = nmr
+		colsToFill[i] = nmc
+		// p.filledRow[i] = nmr
+		// p.filledCol[i] = nmc
+	}
+
+	// p.filledRow = make([]map[int]bool, len(rowsToFill))
+	// copy(p.filledRow, rowsToFill)
+	// cpy := make([]map[int]bool, len(rowsToFill))
+	// copy(p.filledRow, rowsToFill)
+
+	p.filledRow = rowsToFill
+	p.filledCol = colsToFill
+
+}
+
+func (p sudoku) printNumbersToFill() {
+
+	fmt.Println("Row wise map details ")
+	for _, val := range p.filledRow {
+		fmt.Println(val)
+	}
+
+	fmt.Println("Column wise map details ")
+	for _, val := range p.filledCol {
+		fmt.Println(val)
+	}
+}
+
+func (p sudoku) solve() {
+
+	grid := p.elems
+
+	valuesToFillInRow := make([]int, p.gridSize)
+	valuesToFillInCol := make([]int, p.gridSize)
+	for row := 0; row < p.gridSize; row++ {
+		for col := 0; col < p.gridSize; col++ {
+			if grid[row][col] == 0 {
+				valuesToFillInRow[row]++
+				valuesToFillInCol[col]++
+			}
+		}
+	}
+	fmt.Println(valuesToFillInRow)
+	fmt.Println(valuesToFillInCol)
+	// for i := 0; i < gridLength; i++ {
+	// 	if sumRow[i] != 45 || sumCol[i] != 45 {
+	// 		return false
+	// 	}
+	// }
+
+	// return true
+}
+
+func main() {
+	// test := []int{1, 2, 3, 4, 5}
+	// fmt.Println(test)
+	inp := `003020600900305001001806400008102900700000008006708200002609500800203009005010300`
+	p := New(inp)
+	p.printNumbersToFill()
+	prettyPrint(p.rows)
+	prettyPrint(p.cols)
+	p.solve()
+}
+
+func isSolved(grid [][]int) bool {
+
+	gridLength := len(grid)
+
+	sumRow := make([]int, gridLength)
+	sumCol := make([]int, gridLength)
+	for row := 0; row < gridLength; row++ {
+		for col := 0; col < gridLength; col++ {
+			sumRow[row] += grid[row][col]
+			sumCol[col] += grid[row][col]
+		}
+	}
+	// fmt.Println(sumRow)
+	// fmt.Println(sumCol)
+	for i := 0; i < gridLength; i++ {
+		if sumRow[i] != 45 || sumCol[i] != 45 {
+			return false
+		}
+	}
+
+	return true
+}
+
+func genGrid(inp string) [][]int {
+
+	gridLength := int(math.Sqrt(float64(len(inp))))
+
+	g := make([][]int, gridLength)
+	for i := range g {
+		g[i] = make([]int, gridLength)
+	}
+
+	rowSl := make([]string, gridLength)
+	arr := []rune(inp)
+
+	for row := 0; row < gridLength; row++ {
+		startIndex := row * gridLength
+		rowSl[row] = string(arr[startIndex : startIndex+9])
+		colSl := []rune(rowSl[row])
+		for col := 0; col < gridLength; col++ {
+			g[row][col] = int(colSl[col]) - 48
+		}
+	}
+
+	return g
+
+}
+
+func prettyPrint(g [][]int) {
+
+	gridLength := len(g)
+	fmt.Printf("\n%v\n", strings.Repeat("-", 27))
+	for row := 0; row < gridLength; row++ {
+		fmt.Printf("| ")
+		for col := 0; col < gridLength; col++ {
+			fmt.Printf("%d ", g[row][col])
+			if (col+1)%3 == 0 {
+				fmt.Printf("| ")
+			}
+		}
+		if (row+1)%3 == 0 {
+			fmt.Printf("\n%v\n", strings.Repeat("-", 27))
+		} else {
+			fmt.Printf("\n")
+		}
+	}
+
+}
+
+func printSubgrids(grid [][]int) {
+
+	// gridLength := len(grid)
+
+}
